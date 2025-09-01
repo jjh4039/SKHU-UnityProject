@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 7ed83003a8f4cef4fb6331404b555455
+  productGUID: aed1375abc91f9742adb6d8b9ab4d386
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: SKHU-Unity Project
+  productName: SKHU-UnityProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -735,7 +735,8 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Collab: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -749,10 +750,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: a7ca1b05-4b81-4e48-bc21-9ef5b251ccdc
+  cloudProjectId: ebfcbcd4-94f3-4b78-842e-b9e2d3985408
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: SKHU-Unity Project
+  projectName: SKHU-UnityProject
   organizationId: jjh4039-naver-com
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
