@@ -14,7 +14,7 @@ public class BG_Move : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(playerPos.position.x, playerPos.position.y + 3f, this.transform.position.z);
+        transform.position = new Vector3(playerPos.position.x, playerPos.position.y + 1f, this.transform.position.z);
         spriteBG.material.mainTextureOffset = new Vector2(playerPos.position.x, playerPos.position.y) * 0.01f;
     }
 }
