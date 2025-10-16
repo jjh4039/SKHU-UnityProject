@@ -28,14 +28,14 @@ public class Bat_Move : MonoBehaviour
         {
             transform.Translate(0f, -0.005f, 0f);
             left_Bat.transform.Rotate(0f, 0f, 0.5f);
-            right_Bat.transform.Rotate(0f, 0f, -1f);
+            right_Bat.transform.Rotate(0f, 0f, -0.5f);
             yield return new WaitForSeconds(0.01f);
         }
         for (int i = 0; i < 50; i++)
         {
             transform.Translate(0f, 0.005f, 0f);
             left_Bat.transform.Rotate(0f, 0f, -0.5f);
-            right_Bat.transform.Rotate(0f, 0f, 1f);
+            right_Bat.transform.Rotate(0f, 0f, 0.5f);
             yield return new WaitForSeconds(0.01f);
         }
         StartCoroutine(Move());

@@ -11,7 +11,7 @@ public class Man_Move : MonoBehaviour
     void Update()
     {
         // 이동 로직
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space))
         {
             rigid.AddForce(new Vector2(0, 5f));
         }
